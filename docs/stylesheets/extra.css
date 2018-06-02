@@ -1,0 +1,48 @@
+.md-header-nav__button.md-logo img {
+    width: 4em;
+}
+
+.md-header-nav__topic {
+    display: none;
+}
+
+.md-tabs {
+    display: none;
+}
+
+@media screen and (min-width:720px) {
+  /* put your css styles in here */
+  article.md-content__inner.md-typeset {
+    padding: 4em;
+    border-radius: 2em;
+    -webkit-box-shadow: 0px 0px 200px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 200px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 200px 0px rgba(0,0,0,0.75);
+  }
+
+  .md-content__inner.md-typeset {
+      padding-top: 4em;
+  }
+
+  .md-main {
+      background: linear-gradient(135deg, #004e92 0%,#000428 100%);
+  }
+}
+
+article {
+    background: white;
+}
+
+.md-footer-nav {
+    background: #004e92;
+}
+
+.md-sidebar {
+  padding-top: 0px;
+}
+
+.md-sidebar__scrollwrap {
+    background: white;
+    padding: 2em;
+    border-radius: 2em;
+}

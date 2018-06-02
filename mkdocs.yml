@@ -1,0 +1,42 @@
+site_name: Azul GUI Documentation
+pages:
+    - Home: index.md
+    - Prerequisites / Installing Azul: Prerequisites.md
+    - Getting Started: Getting Started.md
+    - A simple counter: A simple counter.md
+    - Widget composition: Widget composition.md
+    - Deamons: Deamons.md
+    - Tasks / Async I/O: Tasks.md
+    - Styling your app with CSS: Styling your app with CSS.md
+    - Dynamic CSS attributes: Dynamic CSS attributes.md
+    - Complex dynamic CSS attributes: Complex dynamic CSS attributes.md
+    - SVG drawing: SVG drawing.md
+    - Built-in widgets: Built-in widgets.md
+    - OpenGL drawing: OpenGL drawing.md
+    - Building a custom plugin for Azul: Building a custom plugin for Azul.md
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'white'
+    accent: 'indigo'
+  font:
+    text: 'Ubuntu'
+    code: 'Roboto Mono'
+  feature:
+    tabs: true
+  logo: 'img/azul_logo_full_min.svg'
+  language: 'en'
+  favicon: 'img/favicon.ico'
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: false
+  - meta
+
+extra:
+  disqus: 'maps4print'
