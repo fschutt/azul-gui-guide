@@ -1,13 +1,16 @@
 Before you get started with Azul, you will have to install it first:
 
-## Installing a supported Rust compiler (version 1.26 or later)
+## Installing a supported Rust compiler
+
+Azul (version 0.1.0) is supported on the Rust 1.26 stable compiler.
 
 ### Windows
 
 !!! warning
     If you get prompted to install the MSVC toolchain, please download both the
-    Visual C++ tools (available here) and install the Windows 8 or 10 SDK
-    (which contains the actual linker) from the Visual Studio Tools installer.
+    Visual C++ tools (available from [here](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017))
+    and install the Windows 8 or 10 SDK (which contains the actual linker) from
+    the Visual Studio Tools installer.
 
 !!! warning
     If you choose the MinGW / GNU toolchain on windows, 32-bit support is missing,
